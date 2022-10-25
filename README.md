@@ -12,7 +12,6 @@
   - [Arquitetura](#Arquitetura)
 - [Iniciando](#Iniciando)
   - [Como usar](#Como-usar)
-  - [Observação](#Observação)
 - [Contribuindo](#Contribuindo)
 - [Licença](#Licença)
 - [Contato](#Contato)
@@ -22,7 +21,7 @@
 ### Arquitetura
 
 <div>
-<img src="" width="600px" />
+<img src="https://github.com/SamuelModesto/Imagens/blob/master/Gerador%20de%20Vouchers/arquitetura-gerador-de-voucher.jpeg" width="600px" />
 </div>
 
 ## Iniciando
@@ -38,18 +37,6 @@
  7. Primeiro um ou mais destinatários `Criar Destinatario` precisam ser criados.
  8. Após isso, basta usar a request `Criar Oferta`.
  9. Para resgatar um voucher use a request de busca `Recuperar destinatarios` copie um codigo de voucher e o email do destinatario para usar na request `Resgatar Voucher`.
- 
-### Observação
- O ponto mais interessante desse projeto foi abstrair as validacoes para diferentes classes isolando assim essas regras e diminuindo a complexidade de codigo com o `Open Closed Principle` do SOLID.
- Antes
-<div>
-<img src="" width="600px" />
-</div>
-
-Depois
-<div>
-<img src="" width="600px" />
-</div>
 
 ## Contribuindo
 
