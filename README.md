@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h3 align="center">API para gerar voucher para os clientes baseado em uma determinada oferta especial.</h3>
+  <h3 align="center">Gerador de Vouchers</h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -17,7 +17,7 @@
 - [Contato](#Contato)
 
 ## Sobre o Projeto
-    O objetivo é criar um micro serviço de pool de vouchers baseado em micro serviço usando Spring Data JPA e MongoDB.
+O objetivo é criar um micro serviço de pool de vouchers baseado em micro serviço usando Spring Data JPA e MongoDB.
 ### Arquitetura
 
 <div>
