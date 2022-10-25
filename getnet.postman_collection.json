@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "687aa444-de29-4aa1-bb97-c1fda534d344",
+		"name": "getnet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11462615"
+	},
+	"item": [
+		{
+			"name": "Criar Oferta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Natal\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getnet/ofertas?percentualDesconto=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getnet",
+						"ofertas"
+					],
+					"query": [
+						{
+							"key": "percentualDesconto",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar destinatario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"larissa\",\r\n    \"email\":\"larissa@email.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getnet/destinatarios/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getnet",
+						"destinatarios",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar destinatarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getnet/destinatarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getnet",
+						"destinatarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resgatar Voucher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getnet/destinatarios/resgatar?email=alexandre@email.com&codigo=6H7jPDqW",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getnet",
+						"destinatarios",
+						"resgatar"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "alexandre@email.com"
+						},
+						{
+							"key": "codigo",
+							"value": "6H7jPDqW"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
