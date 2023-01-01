@@ -21,7 +21,7 @@ O objetivo é criar um micro serviço de pool de vouchers baseado em micro servi
 ### Arquitetura
 
 <div>
-<img src="https://github.com/SamuelModesto/Imagens/blob/master/Gerador%20de%20Vouchers/arquitetura-gerador-de-voucher.jpeg" width="600px" />
+<img src="https://github.com/SamuelModesto/Assets/blob/master/Imagens%20Gerador%20de%20Vouchers/arquitetura-gerador-de-voucher.jpeg" width="600px" />
 </div>
 
 ## Iniciando
